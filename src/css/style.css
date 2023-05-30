@@ -1,0 +1,492 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arimo', sans-serif;
+}
+
+#info {
+    text-align: center;
+}
+
+body ul {
+    list-style:disc;
+}
+
+.header {
+    background:linear-gradient(135deg, #e318ee, #3793d8);
+    background-color:#7000c6;
+    padding-bottom:80px;
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+
+.header .navbar {
+    background:transparent;
+    padding-top:12px;
+    padding-bottom:12px;
+    color:#fff;
+    border-radius:0;
+    box-shadow:none;
+    border:none;
+}
+
+.header .navbar .navbar-brand {
+    font-weight:bold;
+    color:inherit;
+}
+
+.header .navbar .navbar-brand:hover {
+    color:#f0f0f0;
+}
+
+.header .navbar .navbar-collapse {
+    border-top:1px solid rgba(255,255,255,0.3);
+    margin-top:8px;
+}
+
+
+.header .navbar .navbar-collapse span .login {
+    color:#d9d9d9;
+    margin-right:8px;
+    text-decoration:none;
+}
+
+.header .navbar .navbar-collapse span .login:hover {
+    color:#fff;
+}
+
+.header .navbar .navbar-toggler {
+    border-color:rgba(255,255,255,0.3);
+}
+
+.header .navbar .navbar-toggler:hover, .header .navbar-toggler:focus {
+    background:none;
+}
+
+.header .navbar .navbar-nav a.active, .header .navbar .navbar-nav > .show .dropdown-item {
+    background:none;
+    box-shadow:none;
+}
+
+.nav {
+    flex-wrap: nowrap;
+}
+
+@media (min-width:768px) {
+    .header {
+        padding-bottom:120px;
+        height: 890px;
+    }
+    .header .navbar {
+        padding-top:16px;
+        padding-bottom:16px;
+    }
+    .header .navbar .navbar-collapse {
+        border-color:transparent;
+        margin:0;
+    }
+    .header .navbar-nav .nav-link {
+        padding-left:11px;
+        padding-right:11px;
+    }
+    .header .hero {
+        margin-top:60px;
+        text-align:left;
+    }
+
+    .salto {
+        display: none;
+    }
+
+}
+
+.header .navbar .navbar-nav > li > .dropdown-menu {
+    margin-top:-5px;
+    box-shadow:0 4px 8px rgba(0,0,0,.1);
+    background-color:#fff;
+    border-radius:2px;
+}
+
+.header .navbar .dropdown-menu .dropdown-item:focus, .header .navbar .dropdown-menu .dropdown-item {
+    line-height:2;
+    color:#37434d;
+}
+
+.header .navbar .dropdown-menu .dropdown-item:focus, .header .navbar .dropdown-menu .dropdown-item:hover {
+    background:#ebeff1;
+}
+
+.header .action-button, .header .action-button:not(.disabled):active {
+    border:1px solid rgba(255,255,255,0.7);
+    border-radius:40px;
+    color:#ebeff1;
+    box-shadow:none;
+    text-shadow:none;
+    padding: 5px 13px;
+    background:transparent;
+    transition:background-color 0.25s;
+    outline:none;
+}
+
+.header .action-button:hover {
+    color:#fff;
+}
+
+.header .navbar .form-inline label {
+    color:#d9d9d9;
+}
+
+.header .hero {
+    margin-top:20px;
+    text-align:center;
+}
+
+
+.header .hero h1 {
+    color:#fff;
+    font-size:40px;
+    margin-top:0;
+    margin-bottom:15px;
+    font-weight:300;
+    line-height:1.4;
+}
+
+@media (min-width:992px) {
+    .header .hero h1 {
+        margin-top:190px;
+        margin-bottom:24px;
+        line-height:1.2;
+    }
+    .header .navbar-nav .nav-link {
+        padding-left:19px;
+        padding-right:19px;
+    }
+
+    .dark-index {
+        margin-right: 40px;
+    }
+}
+
+
+.header .hero p {
+    color:rgba(255,255,255,0.8);
+    font-size:20px;
+    margin-bottom:30px;
+    font-weight:300;
+}
+
+.header .phone-holder {
+    text-align:right;
+}
+
+.header div.iphone-mockup {
+    position:relative;
+    max-width:300px;
+    margin:20px;
+    display:inline-block;
+}
+
+.header .iphone-mockup img.device {
+    width:100%;
+    height:auto;
+}
+
+#formnav {
+    margin: 0 auto;
+}
+
+.header .iphone-mockup .screen {
+    position:absolute;
+    width:88%;
+    height:77%;
+    top:12%;
+    border-radius:2px;
+    left:6%;
+    border:1px solid #444;
+    background-color:#aaa;
+    overflow:hidden;
+    background-size:cover;
+    background-position:center;
+}
+
+.header .iphone-mockup .screen:before {
+    content:'';
+    background-color:#fff;
+    position:absolute;
+    width:70%;
+    height:140%;
+    top:-12%;
+    right:-60%;
+    transform:rotate(-19deg);
+    opacity:0.2;
+}
+
+button {
+    border-radius: 8%;
+}
+
+#dark-web-btn {
+    font-weight: bold;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px gray;
+    background:linear-gradient(135deg, #f9f9f9, #ffffff);
+} 
+
+.dark-register {
+    position: relative;
+    left: 60vw;
+}
+
+#virbela-icon {
+    width: 100px;
+    height: 100px;
+}
+
+#footer-media {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#footer-media li {
+    float: left;
+    margin: 0 6px;
+}
+
+h5 {
+    text-align: left;
+    text-align: center;
+}
+
+.col-lg-3 {
+    display: grid;
+    place-items: center;
+}
+
+#tw-color {
+    color:#3793d8;
+}
+
+#fb-color {
+    color:blue;
+}
+
+#li-color {
+    color:darkblue
+}
+
+#info ul {
+    list-style: none;
+}
+
+#info li {
+    font-size: 25px;
+    color: gray;
+    margin-top: 20px;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+#info li:hover {
+    transform: translateY(-4px);
+    transition: all 500ms;
+}
+
+.bullet {
+    font-size: 30px;
+    font-weight: bold;
+    color: #8d1093;
+}
+
+#info li:hover .bullet{
+    color: #b516bd;
+    transition: all 500ms;
+}
+
+#info p {
+    font-size: 24px;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+#form {
+    width: 65%;
+    margin: auto;
+}
+
+.text-section {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+}
+
+.text-section p {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#submit-btn {
+    display: block;
+    margin: 0 auto;
+    background-color: #7000c6;
+    color: white;
+}
+
+#submit-btn:hover {
+    background-color: #8b09ef;
+}
+
+
+.colored-h2 {
+    background:linear-gradient(135deg, #e318ee, #3793d8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px rgba(187, 184, 184, 0.6);
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+#metaverse-image {
+    width: 550px;
+    height: 460px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+#metaverse-image:hover {
+    filter: brightness(1.1);
+}
+
+@media (min-width:768px) {
+    .header {
+        padding-bottom:120px;
+    }
+    .header .navbar {
+        padding-top:16px;
+        padding-bottom:16px;
+    }
+    .header .navbar .navbar-collapse {
+        border-color:transparent;
+        margin:0;
+    }
+}
+
+@media (max-width: 991px) {
+    #metaverse-image {
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    #info p {
+        width: 90%;
+    }
+
+    .dark-index {
+        margin-right: 20px;
+    }
+
+    #sign-up-btn {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .dark-register {
+        position: relative;
+        left: 0px;
+    }
+    .header {
+        height: 944px;
+    }
+    #form {
+        width: 90%
+    }
+    .fix-p {
+        width: 100%;
+    }
+}
+
+.imgs:hover {
+    transform: scale(1.03);
+    transition: all 500ms;
+}
+
+.imgs {
+    margin-top: 40px;
+}
+
+form {
+    color:#000000
+}
+
+.footer {
+    background-color:#37434d;
+    margin-top: 100px;
+    border-top: 3px solid #eee;
+}
+
+@media (max-width:576px) {
+    #metaverse-image {
+        display: none;
+    }
+    .header {
+        height: auto;
+    }
+    .small-h2 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width:992px) {
+    #metaverse-image {
+        width: 380px;
+        height: 330px;
+        margin-top: 270px;
+    }
+    .header {
+        height: 706px;
+    }
+}
+
+@media (min-width:1400px) {
+    #metaverse-image {
+        width: 550px;
+        height: 460px;
+        margin-top: 140px;
+    }
+}
+
+#header-registro {
+    height: auto;
+}
+
+#dir-btn {
+    width: 130px;
+    padding-top: 14px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+#dir-btn p {
+    font-size: 14px;
+}
+
+#maps-icon {
+    position: relative;
+    bottom: 5px;
+}
+
+#virbela {
+    color: rgb(194, 10, 194);
+}
+
+.nav-link:hover {
+    color: #c8c6c6 !important;
+}

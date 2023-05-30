@@ -1,0 +1,57 @@
+body {
+    &.dark {
+        background-color: black;
+        color:rgb(255, 255, 255)
+    }
+}
+
+.header {
+    &.dark {
+        background:linear-gradient(135deg, #110546, #000000);
+        background-color:#7000c6;
+        font-family:'Source Sans Pro', sans-serif;
+    }
+}
+
+.container p, .container h1, .text-uppercase {
+    &.dark {
+        color: rgb(255, 255, 255);
+    }
+}
+
+.container button {
+    &.dark {
+        color: rgb(255, 255, 255);
+        border-color: rgb(255, 255, 255);
+    }
+}
+
+#dark-web-btn,  #dir-btn{
+    &.dark {
+        background:linear-gradient(135deg, #515050, #3e3d3d)
+    }
+}
+
+.footer {
+    &.dark {
+        background-color: rgb(46, 46, 46) !important;
+    }
+}
+
+#tw-color {
+    &.dark {
+        color:#ffffff;
+    }
+}
+
+#fb-color {
+    &.dark {
+        color:#ffffff;
+    }
+}
+
+#li-color {
+    &.dark {
+        color:#ffffff;
+    }
+}
